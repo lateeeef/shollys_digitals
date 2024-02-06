@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shollys Digitals</title>
+    <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+</head>
+<style>
+
+    .activate{
+        border-bottom: 10px 8px 8px 9px #F1900E;
+    }
+    .tired{
+        font-size: larger;
+    }
+    .link:hover,
+    .active {
+        color: #F1900E;
+    }
+ 
+    .link-drop:hover {
+        background: #F1900E;
+        color: white;
+    }
+    #myCarousel{
+        height: 500px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .tired{
+            font-size: small;
+        }
+        p {
+            font-size: 15px;
+        }
+
+        #myCarousel {
+            height: 300px;
+        }
+        .intro img{
+            height: 300px;
+        }
+        .txt{
+            font-size: 15px;
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
+        .card-img-overlay{
+            margin: 50px 0 0 0;
+            padding: 0;
+            /* background-color: #F1900E; */
+            height: 350px;
+        }
+        .card-image{
+            height: 300px;
+            width: 300px;
+        }
+        .cards{
+            height: 400px;
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <article>
+        <nav class="navbar navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#"> <img class="rounded" src="img/logo.webp" alt="" height="40px"
+                        width="40px"> SHOLLYS DIGITALS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white link" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle link" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Portfolio
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item link-drop" href="#">Testimonials</a></li>
+                                    <li><a class="dropdown-item link-drop" href="#">Premium</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item link-drop" href="#">Other Services</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="intro">
+                <div>
+                    <img class="w-100" height="623px" src="img/network-6511448_1280.webp" alt=""
+                        style="filter: brightness(50%);">
+                </div>
+                <div
+                    class="card-img-overlay mask text-light d-flex justify-content-center flex-column text-center p-5 w-100">
+                    <h1 class="fw-bold display-4 ">We Create Websites</h1>
+                    <p class=" px-5 container tired">Are you tired of mediocre website designs that don't attract leads or
+                        convert
+                        them
+                        into customers? As a website design expert, we can help you create a visually stunning and
+                        highly
+                        functional website that drives results for your business. Let us show you how!</p>
+                    <div>
+                        <button class="btn btn-lg px-5 my-3 text-light" style="background-color: #F1900E;">Contact
+                            Us</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="my- ">
+                <div class="text-center py-3 my-2">
+                    <h1 class="featurette-heading fw-normal">Capabilities</h1>
+                    <p class="px-5 container"="padding: 0px 300px;">The result of our company branding process isi a
+                        comprehension
+                        brand guideline that can be used to design a <u>marketing website</u> and other design assets
+                        like
+                        brand illustrations that reflect the new brand </p>
+                </div>
+                <div class=" row justify-content-between align-items-center px-5 mx-5">
+                    <div class="card col-lg-3 m-1">
+                        <div style="background: #F1900E; height: 3px;"></div>
+                        <div class="p-3">
+                            <h5>Strategy.</h5>
+                            <ul>
+                                <li>Brand equity audit</li>
+                                <li>Audience analysis</li>
+                                <li>Brand Strategy</li>
+                                <li>Digital Strategy</li>
+                                <li>Content Strategy</li>
+                                <li>Rate Optimizatin</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 m-1">
+                        <div style="background: #F1900E; height: 3px;"></div>
+                        <div class="p-3">
+                            <h5>Development.</h5>
+                            <ul>
+                                <li>Fullstack Development</li>
+                                <li>Performance Optimization</li>
+                                <li>Wordpress Development</li>
+                                <li>Shopify Development</li>
+                                <li class="invisible">System Architecture Design</li>
+                                <li class="invisible">System Architecture Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 m-1">
+                        <div style="background: #F1900E; height: 3px;"></div>
+                        <div class="p-3">
+                            <h5>Design.</h5>
+                            <ul>
+                                <li>Web Design</li>
+                                <li>UI/UX Dwaign guide</li>
+                                <li>Content Strategy</li>
+                                <li>Prototypees</li>
+                                <li class="">System Architecture Design</li>
+                                <li class="invisible">System Architecture Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="p-5 d-flex">
+                <div class="pe-4 ">
+                    <h1 class="featurette-heading fw-normal mb-3">About Us</h1>
+                    <p class="pe-5">Sholly Digitals specializes in the creation and maintenance of websites and web
+                        applications. We are proficient in various programming languages such as HTML, CSS,
+                        JavaScript, and others. We work to ensure that websites are visually appealing, user-friendly,
+                        and functionally efficient. </p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum dignissimos soluta inventore
+                        distinctio? Voluptates dolor magnam corrupti minus, tempore delectus et molestiae illum placeat.
+                        Aperiam assumenda quis repellendus ab voluptates. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Amet fugiat ipsum blanditiis corporis eum laborum, sapiente magni facilis
+                        deserunt tempore, asperiores nesciunt consectetur quasi molestiae nulla ut dicta! Quam,
+                        laudantium!</p>
+                    <div>
+                        <button class="btn btn-lg px-5 text-light" style="background: #F1900E">Contact
+                            Us</button>
+                    </div>
+                </div>
+                <div class="">
+                    <img class="rounded-pill " height="400px" width="400px" src="img/programming.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="my-5 ">
+                <div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active h-100">
+                            <img class="d-block rounded w-100 h-100" src="img/istockphoto.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img class="d-block rounded w-100 h-100" src="img/network-6511448_1280.webp"
+                                alt="Second slide">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img class="d-block rounded w-100 h-100" src="img/programming.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="container bg-">
+                <div class="container text-center">
+                    <h1>Portfolio</h1>
+                    <p class="container-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus accusamus
+                        repudiandae necessitatibus voluptates quam voluptate nostrum harum, culpa voluptatibus illum
+                        porro alias earum soluta vero voluptatem eius consequuntur? Adipisci, rem?</p>
+                </div>
+                <div class=" row mt-2">
+                    <div class="col-md-4 cards">
+                        <img class="card-image h-75 w-100 rounded" src="img/webdesign.jpg" alt="">
+                        <p class="card-title text-center fw-normal mt-3">Web Design</p>
+                    </div>
+                    <div class="col-md-4 cards">
+                        <img class="card-image h-75 w-100 rounded" src="img/mobileapp.jpg" alt="">
+                        <p class="card-title text-center fw-normal mt-3">Mibile Application</p>
+                    </div>
+                    <div class="col-md-4 cards">
+                        <img class="card-image h-75 w-100 rounded" src="img/corperatedesign.jpg" alt="">
+                        <p class="card-title text-center fw-normal mt-3">Corporate Design</p>
+                    </div>
+                    <div class="col-md-4 cards">
+                        <img class="card-image h-75 w-100 rounded" src="img/mobile.jpg" alt="">
+                        <p class="card-title text-center fw-normal mt-3">App Development</p>
+                    </div>
+                    <div class="col-md-4 cards">
+                        <img class="card-image h-75 w-100 rounded" src="img/responsive.jpg" alt="">
+                        <p class="card-title text-center fw-normal mt-3">Responsive Design</p>
+                    </div>
+                    <div class="col-md-4 cards">
+                        <img class="card-image h-75 w-100 rounded" src="img/digital.jpg" alt="">
+                        <p class="card-title text-center fw-normal mt-3">Digital Product</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="row featurette container">
+                    <div class="col-md-6 order-md-2">
+                        <h2 class="featurette-heading fw-normal lh-1"> <span
+                                class="text-body-secondary">We help the world's best brands sell more online</span></h2>
+                        <p class="lead">We bring digital experiences to life, solving everyday problems with customer-centric solutions.</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <h1 style="color: #F1900E;">21</h1>
+                                <p style="font-size: smaller;">APPS</p>
+                            </div>
+                            <div class="col-6">
+                                <h1 style="color: #F1900E;">61+</h1>
+                                <p style="font-size: small;">WEBSITES</p>
+                            </div>
+                            <div class="col-6">
+                                <h1 style="color: #F1900E;">43+</h1>
+                                <p style="font-size: small;">TEAMS</p>
+                            </div>
+                            <div class="col-6">
+                                <h1 style="color: #F1900E;">16K</h1>
+                                <p style="font-size: small;">HAPPY USERS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <img src="img/digital.jpg" alt="img" height="500" width="500">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container marketing text-center align-items-center my-5">
+                <div class="mb-4">
+                    <h2 class="fw-normal">What Our Clients Say</h2>
+                </div>
+                <div class="row my-3 container">
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                        </svg>
+                        <h3 class="fw-normal">James Robert</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam dolor similique vitae eum
+                            perferendis fugit nobis, laudantium .</p>
+                        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                        </svg>
+                        <h3 class="fw-normal">Clifford Smith</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam dolor similique vitae eum
+                            perferendis fugit nobis, laudantium .</p>
+                        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+                        </svg>
+                        <h3 class="fw-normal">Maryam Abdullrazaq</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam dolor similique vitae eum
+                            perferendis fugit nobis, laudantium .</p>
+                        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container marketing text-center align-items-center my-5">
+                <div class="mb-4">
+                    <h2 class="fw-normal">Convert New Customers With a Powerful Website</h2>
+                    <p class="lead">Quick, Smart & Great Solutions.</p>
+                </div>
+                <div class="row my-3 container">
+                    <div class="col-lg-3">
+                        <img src="img/portsodiki.png" height="600px" width="300px" alt="">
+                        <h3 class="fw-normal">Ecommerce</h3>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="img/porttem.png" height="600px" width="300px" alt="">
+                        <h3 class="fw-normal">Food</h3>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="img/portsodiki.png" height="600px" width="300px" alt="">
+                        <h3 class="fw-normal">School</h3>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="img/portsodiki.png" height="600px" width="300px" alt="">
+                        <h3 class="fw-normal">Marketing</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- <div style="background: #DCCEBB;">
+        </div> -->
+
+    </article>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- <div class="page-preview">
+            <div class="page-preview-header">
+                <a class="hidden-sm hidden-xs active" href="#" id="previewDesktopBtn" data-preview-size="100%"><img
+                        alt="Responsive Desktop Mode" src="//csite.nicepage.com/Images/Site/responsive-desktop.png"></a>
+                <a class="hidden-sm hidden-xs" href="#" id="previewLaptopBtn" data-preview-size="1040px"><img
+                        alt="Responsive Laptop Mode" src="//csite.nicepage.com/Images/Site/responsive-laptop.png"></a>
+                <a class="hidden-xs" href="#" id="previewTabletBtn" data-preview-size="820px"><img
+                        alt="Responsive Tablet Mode" src="//csite.nicepage.com/Images/Site/responsive-tablet.png"></a>
+                <a class="hidden-xs" href="#" id="previewPhoneHorizontalBtn" data-preview-size="640px"><img
+                        alt="Responsive Phone Horizontal Mode"
+                        src="//csite.nicepage.com/Images/Site/responsive-phone-horizontal.png"></a>
+                <a class="hidden-xs" href="#" id="previewPhoneBtn" data-preview-size="440px"><img
+                        alt="Responsive Phone Mode" src="//csite.nicepage.com/Images/Site/responsive-phone.png"></a>
+                <a class="close" href="/t/2806974/we-build-fresh-designs-template" previewlistener="true"><img
+                        alt="Close" src="//csite.nicepage.com/Images/Site/icon-close.png"></a>
+            </div>
+            <div class="page-preview-body">
+                <iframe id="livePreviewFrame"
+                    src="https://website2806962.nicepage.io/Home.html?version=4801ead6-5f50-4252-9e23-9685bf99e9d0"
+                    width="1057" height="640" style="width:100%;"></iframe>
+            </div>
+        </div>
+        <a style="position:absolute;top:17px;left:10px;" href="/" previewlistener="true"><img alt="NicePage.com"
+                src="//csite.nicepage.com/Images/logo-w.png"></a>
+
+        <script>
+            if (window.parent) {
+                var _w = 0, _h = 0;
+                var updateFormSize = function () {
+                    var form = $('form.shaped-form-extended,form.shaped-form');
+                    var w = form.outerWidth(true);
+                    var h = form.outerHeight(true);
+                    if (Math.abs(_w - w) > 5 || Math.abs(_h - h) > 5) {
+                        _w = w;
+                        _h = h;
+                        var msg = { key: 'login-frame-size', width: w, height: h };
+                        window.parent.postMessage(msg, "*");
+                    }
+                    setTimeout(updateFormSize, 300);
+                }
+                updateFormSize();
+            }
+        </script><iframe allow="join-ad-interest-group" data-tagging-id="AW-797221335"
+            data-load-time="1706577829551" height="0" width="0" style="display: none; visibility: hidden;"
+            src="https://td.doubleclick.net/td/rul/797221335?random=1706577829536&amp;cv=11&amp;fst=1706577829536&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be41o0v9101312129&amp;gcd=11l1l1l1l1&amp;dma=0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fnicepage.com%2Ftemplates%2Fpreview%2Fwe-build-fresh-designs-2806974%3Fdevice%3Ddesktop&amp;ref=https%3A%2F%2Fnicepage.com%2Ft%2F2806974%2Fwe-build-fresh-designs-template&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=We%20build%20fresh%20designs%20Template%20Live%20Demo&amp;npa=0&amp;pscdl=noapi&amp;auid=1092366967.1706216928&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Not_A%2520Brand%3B8.0.0.0%7CChromium%3B120.0.6099.225%7CGoogle%2520Chrome%3B120.0.6099.225&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;data=event%3Dgtag.config">
+        </iframe> -->
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container">
+            <hr class="text-light">
+            <div class="d-flex justify-content-between">
+                <div class="txt">
+                    <img class="rounded" src="img/logo.webp" alt="" height="40px" width="40px">
+                    &copy; 2024 Sholly Digitals, Inc.
+                </div>
+                <div>
+                    <a class="mx-1 socials" href="https://facebook.com/abdulateef.oluwanishola.olalekan/"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                            <path fill="white"
+                                d="M19.02 4.975A9.93 9.93 0 0 0 2.07 12A9.935 9.935 0 0 0 12 21.935a9.98 9.98 0 0 0 3.8-.75a10.189 10.189 0 0 0 3.22-2.16a9.934 9.934 0 0 0 0-14.05m-.7 13.34a8.921 8.921 0 0 1-5.32 2.57v-6.56h1.88a1 1 0 0 0 0-2H13v-2.74a1 1 0 0 1 1-1h1.2a1 1 0 0 0 0-2h-1.7a2.5 2.5 0 0 0-2.5 2.5v3.24H9.13a1 1 0 1 0 0 2H11v6.56a8.919 8.919 0 1 1 9.26-5.47a9.061 9.061 0 0 1-1.94 2.9" />
+                        </svg></a>
+                    <a class="mx-1 socials " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            viewBox="0 0 24 24">
+                            <g fill="none" stroke="white" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8" />
+                                <path d="M3 16V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m17.5 6.51l.01-.011" />
+                            </g>
+                        </svg></a>
+                    <a class="mx-1 socials" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            viewBox="0 0 16 16">
+                            <path fill="white"
+                                d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843z" />
+                        </svg></a>
+                    <!-- <i class="fa-brands fa-facebook-f"></i> -->
+                    <svg class="bi" width="24" height="24">
+                        <use xlink:href="#cart" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
