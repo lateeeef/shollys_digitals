@@ -69,6 +69,15 @@
         }
     }
 </style>
+<script>
+    $(document).ready(function(){
+        $('#about').click(function(){ 
+	$('html, body').animate({ 
+		 scrollTop: $("#aboutsection").offset().top  
+	}, 100); 
+}); 
+    })
+</script>
 
 <body>
     <article>
@@ -95,7 +104,8 @@
                                 <a class="nav-link active link" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link" href="#">About</a>
+                                <!-- <button class="btn" id="about">hgfhg</button> -->
+                                <a class="nav-link link" href="#" id="about">About Us</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle link" href="#" role="button"
@@ -199,10 +209,10 @@
             </div>
 
 
-            <div class="p-5 d-md-flex w-100">
-                <div class="pe-4 ">
+            <div class="p-5 row w-100" id="aboutsection">
+                <div class="pe-4 col-md-7">
                     <h1 class="featurette-heading fw-normal mb-3">About Us</h1>
-                    <p class="pe-5">Sholly Digitals specializes in the creation and maintenance of websites and web
+                    <p class="">Sholly Digitals specializes in the creation and maintenance of websites and web
                         applications. We are proficient in various programming languages such as HTML, CSS,
                         JavaScript, PHP, React, Python, Java  and others. We work to ensure that websites are visually appealing, user-friendly,
                         and functionally efficient. </p>
@@ -218,8 +228,8 @@
                             Us</a>
                     </div>
                 </div>
-                <div class="">
-                    <img class="rounded-pill " height="400px" width="400px" src="img/Creative.png" alt="">
+                <div class="col-md-5">
+                    <img class="rounded-circle w-100" height="400px" width="400px" src="img/Creative.png" alt="">
                 </div>
             </div>
 
@@ -318,7 +328,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 order-md-1">
-                        <img src="img/SD1.png" alt="img" height="500" width="500">
+                        <img class="w-100" src="img/SD1.png" alt="img" height="500" width="500">
                     </div>
                 </div>
 
@@ -367,7 +377,7 @@
 
             <div class="container mb-2">
                 <h2 class="fw-normal">Contact Us</h2>
-                <div class="row gap-5">
+                <div class="row gap-5 container">
                     <a class="col-md-3 btn btn-outline-primary my-1" href="#" onclick="alert('Available Soon')">On Fiverr</a>
                     <a class="col-md-3 btn btn-outline-primary my-1" href="https://www.upwork.com/freelancers/eoluwalomola">On Upwork</a>
                     <a class="col-md-3 btn btn-outline-primary my-1" href="#" onclick="alert('Available Soon')">On Facebook</a>
