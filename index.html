@@ -6,37 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shollys Digitals || Web Development Company -- Create a Modern & Responsive Website</title>
-    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/LOGO2.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
     <script src="https://kit.fontawesome.com/cd01be9631.js" crossorigin="anonymous"></script>
 </head>
 <style>
-
-    .activate{
+    .activate {
         border-bottom: 10px 8px 8px 9px #F1900E;
     }
-    .tired{
+
+    .tired {
         font-size: larger;
     }
+
     .link:hover,
     .active {
         color: #F1900E;
     }
- 
+
     .link-drop:hover {
         background: #F1900E;
         color: white;
     }
-    #myCarousel{
+
+    #myCarousel {
         height: 500px;
     }
 
     @media screen and (max-width: 768px) {
-        .tired{
+        .tired {
             font-size: small;
         }
+
         p {
             font-size: 15px;
         }
@@ -44,38 +48,43 @@
         #myCarousel {
             height: 300px;
         }
-        .intro img{
+
+        .intro img {
             height: 300px;
         }
-        .txt{
+
+        .txt {
             font-size: 15px;
             display: block;
             padding: 0;
             margin: 0;
         }
-        .card-img-overlay{
+
+        .card-img-overlay {
             margin: 50px 0 0 0;
             padding: 0;
             /* background-color: #F1900E; */
             height: 350px;
         }
-        .card-image{
+
+        .card-image {
             height: 300px;
             width: 300px;
         }
-        .cards{
+
+        .cards {
             height: 400px;
             width: 100%;
         }
     }
 </style>
 <script>
-    $(document).ready(function(){
-        $('#about').click(function(){ 
-	$('html, body').animate({ 
-		 scrollTop: $("#aboutsection").offset().top  
-	}, 100); 
-}); 
+    $(document).ready(function () {
+        $('#about').click(function () {
+            $('html, body').animate({
+                scrollTop: $("#aboutsection").offset().top
+            }, 100);
+        });
     })
 </script>
 
@@ -121,6 +130,18 @@
                                     <li><a class="dropdown-item link-drop" href="#">Other Services</a></li>
                                 </ul>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle link" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Accomplished
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item link-drop" href="#">Landing Pages</a></li>
+                                    <li><a class="dropdown-item link-drop" href="#">Ecormerce Websites</a></li>
+                                    <li><a class="dropdown-item link-drop" href="#">Email Campaigns</a></li>
+                                    <li><a class="dropdown-item link-drop" href="#">Logo designs</a></li>
+                                </ul>
+                            </li>
                         </ul>
                         <!-- <form class="d-flex mt-3" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -139,14 +160,16 @@
                 <div
                     class="card-img-overlay mask text-light d-flex justify-content-center flex-column text-center p-5 w-100">
                     <h1 class="fw-bold display-4 ">We Create Websites</h1>
-                    <p class=" px-5 container tired">Are you tired of mediocre website designs that don't attract leads or
+                    <p class=" px-5 container tired">Are you tired of mediocre website designs that don't attract leads
+                        or
                         convert
                         them
                         into customers? As a website design expert, we can help you create a visually stunning and
                         highly
                         functional website that drives results for your business. Let us show you how!</p>
                     <div>
-                        <a href="https://www.upwork.com/freelancers/eoluwalomola" class="btn btn-lg px-5 my-3 text-light" style="background-color: #F1900E;">Contact
+                        <a href="https://www.upwork.com/freelancers/eoluwalomola"
+                            class="btn btn-lg px-5 my-3 text-light" style="background-color: #F1900E;">Contact
                             Us</a>
                     </div>
                 </div>
@@ -206,30 +229,54 @@
                         </div>
                     </div>
                 </div>
+                <hr class="invisible" id="aboutsection">
             </div>
 
 
-            <div class="p-5 row w-100" id="aboutsection">
-                <div class="pe-4 col-md-7">
+            <div class="p-5 align-items-center row w-100" id="">
+                <div class=" col-md-7">
                     <h1 class="featurette-heading fw-normal mb-3">About Us</h1>
-                    <p class="">Sholly Digitals specializes in the creation and maintenance of websites and web
+                    <!-- <p class="">Sholly Digitals specializes in the creation and maintenance of websites and web
                         applications. We are proficient in various programming languages such as HTML, CSS,
-                        JavaScript, PHP, React, Python, Java  and others. We work to ensure that websites are visually appealing, user-friendly,
+                        JavaScript, PHP, React, Python, Java and others. We work to ensure that websites are visually
+                        appealing, user-friendly,
                         and functionally efficient. </p>
-                        <p>Our qualities include technical expertise, effective communication, problem-solving skills, attention to detail, adaptability, time management, and collaboration.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum dignissimos soluta inventore
-                        distinctio? Voluptates dolor magnam corrupti minus, tempore delectus et molestiae illum placeat.
-                        Aperiam assumenda quis repellendus ab voluptates. Lorem ipsum dolor, sit amet consectetur
-                        adipisicing elit. Amet fugiat ipsum blanditiis corporis eum laborum, sapiente magni facilis
-                        deserunt tempore, asperiores nesciunt consectetur quasi molestiae nulla ut dicta! Quam,
-                        laudantium!</p>
+                    <p>Our qualities include technical expertise, effective communication, problem-solving skills,
+                        attention to detail, adaptability, time management, and collaboration.</p> -->
+                    <p>Sholly Digitals are passionate web developers with a proven track record of delivering stunning and functional
+                        websites and web applications. With our years of experience in the industry, we specialize in
+                        fullstack development using a range of technologies including HTML, CSS, JavaScript, PHP,
+                        Python, Java and modern frameworks such as bootstrap, React and Angular.
+                    </p>
+                    <p>
+                        We take pride in our ability to not only write clean and efficient code but also to create
+                        visually appealing and user-friendly interfaces. Our skill set extends to UX design, ensuring
+                        that the websites we develop are both aesthetically pleasing and intuitive to navigate.
+                    </p>
+                    <p>
+                        In addition to our technical expertise, we are dedicated to understanding our clients' needs and
+                        providing tailored solutions that align with their goals. our collaborative approach allows us
+                        to work seamlessly with designers, other developers, and stakeholders to bring projects to life
+                        on time and within budget.
+                    </p><p>
+                        We thrive on tackling new challenges and staying abreast of the latest industry trends and best
+                        practices. Feel free to explore our portfolio to see some of our past projects and how we've
+                        helped clients achieve their web development goals.
+                    </p>
+                    <p>
+                        We are committed to delivering excellence in every project we undertake, and we are excited
+                        about the opportunity to bring your vision to life. Let's work together to create something
+                        remarkable!
+
+                    </p>
                     <div>
-                        <a href="https://www.upwork.com/freelancers/eoluwalomola" class="btn btn-lg px-5 text-light" style="background: #F1900E">Contact
+                        <a href="https://www.upwork.com/freelancers/eoluwalomola" class="btn btn-lg px-5 text-light"
+                            style="background: #F1900E">Contact
                             Us</a>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <img class="rounded-circle w-100" height="400px" width="400px" src="img/Creative.png" alt="">
+                <div class="col-md-5 text-center bg-">
+                    <img class="rounded-circle w-7 mt-2" height="430px" width="430px" src="img/Creative.png" alt="">
                 </div>
             </div>
 
@@ -249,8 +296,7 @@
                             <img class="d-block rounded w-100 h-100" src="img/shollylong.png" alt="First slide">
                         </div>
                         <div class="carousel-item h-100">
-                            <img class="d-block rounded w-100 h-100" src="img/longcode.webp"
-                                alt="Second slide">
+                            <img class="d-block rounded w-100 h-100" src="img/longcode.webp" alt="Second slide">
                         </div>
                         <div class="carousel-item h-100">
                             <img class="d-block rounded w-100 h-100" src="img/longweb.jpg" alt="Third slide">
@@ -272,7 +318,8 @@
             <div class="container bg-">
                 <div class="container text-center">
                     <h1>Portfolio</h1>
-                    <p class="container-md">Convert New Customers With a Powerful Website. Quick, Smart & Great Solutions</p>
+                    <p class="container-md">Convert New Customers With a Powerful Website. Quick, Smart & Great
+                        Solutions</p>
                 </div>
                 <div class=" row mt-2">
                     <div class="col-md-4 cards">
@@ -305,9 +352,10 @@
             <div>
                 <div class="row  container w-100">
                     <div class="col-md-6 order-md-2">
-                        <h2 class="featurette-heading fw-normal lh-1"> <span
-                                class="text-body-secondary">We help the world's best brands sell more online</span></h2>
-                        <p class="lead">We bring digital experiences to life, solving everyday problems with customer-centric solutions.</p>
+                        <h2 class="featurette-heading fw-normal lh-1"> <span class="text-body-secondary">We help the
+                                world's best brands sell more online</span></h2>
+                        <p class="lead">We bring digital experiences to life, solving everyday problems with
+                            customer-centric solutions.</p>
                         <div class="row">
                             <div class="col-6">
                                 <h1 style="color: #F1900E;">21</h1>
@@ -344,22 +392,35 @@
                         <h3 class="fw-normal">James Robert</h3>
                         <p>Dear Shollys Digitals,
 
-                            Thank you for the exceptional website you created for us. Your expertise and professionalism are truly commendable. I wholeheartedly recommend your services to anyone in need of a skilled web developer.
-                            
+                            Thank you for the exceptional website you created for us. Your expertise and professionalism
+                            are truly commendable. I wholeheartedly recommend your services to anyone in need of a
+                            skilled web developer.
+
                             Best regards,.</p>
-                        <p><img src="img/fiveranking.webp" alt="" width="120px"></p>
+                        <p style="color: #F1900E;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></p>
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
                         <img src="img/clifford.png " alt="" class="rounded-circle" width="140" height="140">
                         <h3 class="fw-normal">Clifford Smith</h3>
-                        <p>"I am thoroughly impressed with the website developed by Sollys Digitals. The design is modern and captivating, the functionality is seamless, and the user experience is top-notch. I highly recommend Sollys Digitals to anyone seeking a professional and reliable web developer who can deliver outstanding results.".</p>
-                        <p><img src="img/fiveranking.webp" alt="" width="120px"></p>
+                        <p>"I am thoroughly impressed with the website developed by Sollys Digitals. The design is
+                            modern and captivating, the functionality is seamless, and the user experience is top-notch.
+                            I highly recommend Sollys Digitals to anyone seeking a professional and reliable web
+                            developer who can deliver outstanding results.".</p>
+                        <p style="color: #F1900E;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></p>
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
                         <img src="img/maryam.jpg" alt="" class="rounded-circle" width="140" height="140">
                         <h3 class="fw-normal">Maryam Abdullrazaq</h3>
-                        <p>I wholeheartedly recommend your services to anyone seeking a top-tier, professional web developer. Your commitment to excellence and proven ability to deliver outstanding results will undoubtedly inspire trust in any prospective clients..</p>
-                        <p><img src="img/fivestar.webp " alt="" width="120px"></p>
+                        <p>I wholeheartedly recommend your services to anyone seeking a top-tier, professional web
+                            developer. Your commitment to excellence and proven ability to deliver outstanding results
+                            will undoubtedly inspire trust in any prospective clients..</p>
+                        <p style="color: #F1900E;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i></p>
                     </div>
                 </div>
 
@@ -378,9 +439,12 @@
             <div class="container mb-2">
                 <h2 class="fw-normal">Contact Us</h2>
                 <div class="row gap-5 container text-center">
-                    <a class="col-md-3 btn btn-outline-warning my-1" href="#" onclick="alert('Available Soon')">On Fiverr</a>
-                    <a class="col-md-3 btn btn-outline-warning my-1" href="https://www.upwork.com/freelancers/eoluwalomola">On Upwork</a>
-                    <a class="col-md-3 btn btn-outline-warning my-1" href="https://facebook.com/abdulateef.oluwanishola.olalekan/">On Facebook</a>
+                    <a class="col-md-3 btn btn-outline-warning my-1" href="#" onclick="alert('Available Soon')">On
+                        Fiverr</a>
+                    <a class="col-md-3 btn btn-outline-warning my-1"
+                        href="https://www.upwork.com/freelancers/eoluwalomola">On Upwork</a>
+                    <a class="col-md-3 btn btn-outline-warning my-1"
+                        href="https://facebook.com/abdulateef.oluwanishola.olalekan/">On Facebook</a>
                 </div>
             </div>
 
@@ -445,14 +509,14 @@
                     <img class="rounded" src="img/LOGO2.png" alt="" height="40px" width="40px">
                     &copy; 2024 Sholly Digitals, Inc.
                 </div>
-                <div>
+                <div class="text-end">
                     <a class="mx-1 socials" href="https://facebook.com/abdulateef.oluwanishola.olalekan/"><svg
                             xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                             <path fill="white"
                                 d="M19.02 4.975A9.93 9.93 0 0 0 2.07 12A9.935 9.935 0 0 0 12 21.935a9.98 9.98 0 0 0 3.8-.75a10.189 10.189 0 0 0 3.22-2.16a9.934 9.934 0 0 0 0-14.05m-.7 13.34a8.921 8.921 0 0 1-5.32 2.57v-6.56h1.88a1 1 0 0 0 0-2H13v-2.74a1 1 0 0 1 1-1h1.2a1 1 0 0 0 0-2h-1.7a2.5 2.5 0 0 0-2.5 2.5v3.24H9.13a1 1 0 1 0 0 2H11v6.56a8.919 8.919 0 1 1 9.26-5.47a9.061 9.061 0 0 1-1.94 2.9" />
                         </svg></a>
-                    <a class="mx-1 socials " href="#"><svg onclick="alert('Available Soon')" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                            viewBox="0 0 24 24">
+                    <a class="mx-1 socials " href="#"><svg onclick="alert('Available Soon')"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                             <g fill="none" stroke="white" stroke-width="1.5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8" />
@@ -460,12 +524,12 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m17.5 6.51l.01-.011" />
                             </g>
                         </svg></a>
-                    <a class="mx-1 socials" href="#"><svg onclick="alert('Available Soon')" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                            viewBox="0 0 16 16">
+                    <a class="mx-1 socials" href="#"><svg onclick="alert('Available Soon')"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16">
                             <path fill="white"
                                 d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843z" />
                         </svg></a>
-                        <!-- <i class="fa-brands fa-facebook-f text-light fs-4"></i> -->
+                    <!-- <i class="fa-brands fa-facebook-f text-light fs-4"></i> -->
                 </div>
             </div>
         </div>
