@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website development company, email marketing, landing page, graphics design, logo creation. Shollys Digitals">
     <title>Shollys Digitals || Web Development Company -- Create a Modern & Responsive Website</title>
     <script src="https://code.jquery.com/jquery-3.6.3.js"
         integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
@@ -14,6 +15,9 @@
     <script src="https://kit.fontawesome.com/cd01be9631.js" crossorigin="anonymous"></script>
 </head>
 <style>
+    .intro{
+        border: none;
+    }
     .activate {
         border-bottom: 10px 8px 8px 9px #F1900E;
     }
@@ -47,6 +51,7 @@
 
     @media screen and (max-width: 768px) {
         .tired {
+            display: none;
             font-size: small;
         }
 
@@ -69,12 +74,11 @@
             margin: 0;
         }
 
-        .card-img-overlay {
-            margin: 50px 0 0 0;
+        /* .card-img-overlay {
+            margin: 10px 0 0 0;
             padding: 0;
-            /* background-color: #F1900E; */
             height: 350px;
-        }
+        } */
 
         .card-image {
             height: 300px;
@@ -139,24 +143,24 @@
                                     Portfolio
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Testimonials</a></li>
-                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Premium</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Other Services</a></li>
+                                    <li><a class="dropdown-item link-drop" href="website.html">Websites</a></li>
+                                    <li><a class="dropdown-item link-drop" href="landingpage.html">Landing Pages</a></li>
+                                    <li><a class="dropdown-item link-drop" href="emailcampaign.html">Email Campaigns</a></li>
+                                    <li><a class="dropdown-item link-drop" href="logo.html">Logo designs</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle link" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Accomplished
+                                    Company
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item link-drop" href="landingpage.html">Landing Pages</a></li>
-                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Ecormerce Websites</a></li>
-                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Email Campaigns</a></li>
-                                    <li><a class="dropdown-item link-drop" href="logo.html">Logo designs</a></li>
+                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Testimonials</a></li>
+                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Premium</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item link-drop" href="otherservices.html">Other Services</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -180,10 +184,10 @@
             </div>
         </nav>
         <section>
-            <div class="intro">
+            <div class="intro card">
                 <div>
-                    <img class="w-100" height="623px" src="img/network-6511448_1280.webp" alt=""
-                        style="filter: brightness(50%);">
+                    <img class="w-100 h-25" height="" src="img/network-6511448_1280.webp" alt=""
+                        style="filter: brightness(40%);">
                 </div>
                 <div
                     class="card-img-overlay mask text-light d-flex justify-content-center flex-column text-center p-5 w-100">
@@ -472,7 +476,7 @@
             </div> -->
 
             <div class="bg-" style="background-color: #FEF7E5;">
-                <div class="container w-75 justify-content-center align-items-center bg- p-2 contact">
+                <div class="container w- justify-content-center align-items-center bg- p-2 contact">
                     <div class="row p-2">
                         <div class="col-md-6 bg-light py-4">
                             <h4 class="fw-normal text-center" style="color: #F1900E;">CONTACT US</h4>
@@ -490,7 +494,7 @@
                                     <textarea name="message" id="message" cols="15" rows="8" class="d-block w-100 p-2 message" required></textarea>
                                 </div>
                                 <div class="text-center mt-3">
-                                    <input type="submit" value="SUBMIT" class="btn btn- w-100 text-white " style="background-color: #F1900E;" onclick="alert('Submitted! Thank you fir the information.')">
+                                    <input type="submit" value="SUBMIT" class="btn btn- w-100 text-white " style="background-color: #F1900E;">
                                 </div>
                             </form>
                         </div>
@@ -517,54 +521,6 @@
 
     </article>
 
-
-    <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-    <!-- <div class="page-preview">
-            <div class="page-preview-header">
-                <a class="hidden-sm hidden-xs active" href="#" id="previewDesktopBtn" data-preview-size="100%"><img
-                        alt="Responsive Desktop Mode" src="//csite.nicepage.com/Images/Site/responsive-desktop.png"></a>
-                <a class="hidden-sm hidden-xs" href="#" id="previewLaptopBtn" data-preview-size="1040px"><img
-                        alt="Responsive Laptop Mode" src="//csite.nicepage.com/Images/Site/responsive-laptop.png"></a>
-                <a class="hidden-xs" href="#" id="previewTabletBtn" data-preview-size="820px"><img
-                        alt="Responsive Tablet Mode" src="//csite.nicepage.com/Images/Site/responsive-tablet.png"></a>
-                <a class="hidden-xs" href="#" id="previewPhoneHorizontalBtn" data-preview-size="640px"><img
-                        alt="Responsive Phone Horizontal Mode"
-                        src="//csite.nicepage.com/Images/Site/responsive-phone-horizontal.png"></a>
-                <a class="hidden-xs" href="#" id="previewPhoneBtn" data-preview-size="440px"><img
-                        alt="Responsive Phone Mode" src="//csite.nicepage.com/Images/Site/responsive-phone.png"></a>
-                <a class="close" href="/t/2806974/we-build-fresh-designs-template" previewlistener="true"><img
-                        alt="Close" src="//csite.nicepage.com/Images/Site/icon-close.png"></a>
-            </div>
-            <div class="page-preview-body">
-                <iframe id="livePreviewFrame"
-                    src="https://website2806962.nicepage.io/Home.html?version=4801ead6-5f50-4252-9e23-9685bf99e9d0"
-                    width="1057" height="640" style="width:100%;"></iframe>
-            </div>
-        </div>
-        <a style="position:absolute;top:17px;left:10px;" href="/" previewlistener="true"><img alt="NicePage.com"
-                src="//csite.nicepage.com/Images/LOGO2.png-w.png"></a>
-
-        <script>
-            if (window.parent) {
-                var _w = 0, _h = 0;
-                var updateFormSize = function () {
-                    var form = $('form.shaped-form-extended,form.shaped-form');
-                    var w = form.outerWidth(true);
-                    var h = form.outerHeight(true);
-                    if (Math.abs(_w - w) > 5 || Math.abs(_h - h) > 5) {
-                        _w = w;
-                        _h = h;
-                        var msg = { key: 'login-frame-size', width: w, height: h };
-                        window.parent.postMessage(msg, "*");
-                    }
-                    setTimeout(updateFormSize, 300);
-                }
-                updateFormSize();
-            }
-        </script><iframe allow="join-ad-interest-group" data-tagging-id="AW-797221335"
-            data-load-time="1706577829551" height="0" width="0" style="display: none; visibility: hidden;"
-            src="https://td.doubleclick.net/td/rul/797221335?random=1706577829536&amp;cv=11&amp;fst=1706577829536&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be41o0v9101312129&amp;gcd=11l1l1l1l1&amp;dma=0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fnicepage.com%2Ftemplates%2Fpreview%2Fwe-build-fresh-designs-2806974%3Fdevice%3Ddesktop&amp;ref=https%3A%2F%2Fnicepage.com%2Ft%2F2806974%2Fwe-build-fresh-designs-template&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=We%20build%20fresh%20designs%20Template%20Live%20Demo&amp;npa=0&amp;pscdl=noapi&amp;auid=1092366967.1706216928&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Not_A%2520Brand%3B8.0.0.0%7CChromium%3B120.0.6099.225%7CGoogle%2520Chrome%3B120.0.6099.225&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;data=event%3Dgtag.config">
-        </iframe> -->
 
     <footer class="bg-dark text-light py-3">
         <div class="container">

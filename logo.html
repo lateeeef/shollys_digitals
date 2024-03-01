@@ -18,6 +18,12 @@
 
 
 <style>
+    .card{
+        border: none;
+    }
+    .lead{
+        width: 600px;
+    }
     .link:hover,
     .active {
         color: #F1900E;
@@ -28,7 +34,11 @@
         color: white;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 650px) {
+        .lead{
+            width: 100%;
+            font-size: small;
+        }
         .words {
             font-size: 8px;
         }
@@ -60,10 +70,10 @@
                             <a class="nav-link active link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link" href="#" id="about">About Us</a>
+                            <a class="nav-link link disabled" href="#" id="about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link" href="#" id="contact">Contacts</a>
+                            <a class="nav-link link disabled" href="#" id="contact">Contacts</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle link" href="#" role="button"
@@ -71,24 +81,24 @@
                                 Portfolio
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Testimonials</a></li>
-                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Premium</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Other Services</a></li>
+                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Websites</a></li>
+                                <li><a class="dropdown-item link-drop" href="landingpage.html">Landing Pages</a></li>
+                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Email Campaigns</a></li>
+                                <li><a class="dropdown-item link-drop" href="logo.html">Logo designs</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle link" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Accomplished
+                                Company
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item link-drop" href="landingpage.html">Landing Pages</a></li>
-                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Ecormerce Websites</a></li>
-                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Email Campaigns</a></li>
-                                <li><a class="dropdown-item link-drop" href="logo.html">Logo designs</a></li>
+                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Testimonials</a></li>
+                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Premium</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item link-drop" href="otherservices.html">Other Services</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -112,13 +122,17 @@
         </div>
     </nav>
 
-    <main>
+    <main class="">
 
-        <section class="py-5 text-center container ">
-            <div class="row py-lg-5">
-                <div class="col-lg-6 col-md-8 mx-auto words">
-                    <h1 class="fw-light">Design Excellence</h1>
-                    <p class="lead text-body-secondary">
+        <section class="text-center ">
+            <div class="card">
+                <div class="d- d-sm-block">
+                    <img class="w-100" height="" src="img/logocover1.jpg" alt=""
+                        style="filter: brightness(30%);">
+                </div>
+                <div class="card-img-overlay mask text-light d-flex justify-content-center flex-column text-center p-5 w-100 mx-auto  words">
+                    <h1 class="fw-bold display-5">Design Excellence</h1>
+                    <p class="lead text-body-secondary mx-md-auto ">
 
                         As a logo designer, we bring creativity and precision to every project. Let's collaborate to create a captivating logo that elevates your brand.
                         
@@ -126,99 +140,154 @@
                     <p>
                         <a href="#" class="btn text-white my-2" style="background-color: #F1900E;">Order to Create
                             Logo</a>
-                        <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
                     </p>
                 </div>
             </div>
         </section>
 
-        <div class="album py-5 bg-body-tertiary">
+        <div class="album py- bg-body-tertiary">
             <div class="container">
                 <div class="floating-div-wrap">
                     <div class="floating-container">
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/bread.jpg" alt="">
-                            <p class="text-secondary text-center small">Bread</p>
+                            <img class="w-100" src="img/logo/logo1.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Bread</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/startbusiness.jpg" alt="">
-                            <p class="text-secondary text-center small">Stat Business</p>
+                            <img class="w-100" src="img/logo/logo2.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Stat Business</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/tax lawyer.png" alt="">
-                            <p class="text-secondary text-center small">Tax lawyer</p>
+                            <img class="w-100" src="img/logo/logo3.webp lawyer.png" alt="">
+                            <!-- <p class="text-secondary text-center small">Tax lawyer</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/teachingcenter.jpg" alt="">
-                            <p class="text-secondary text-center small">Teaching Center</p>
+                            <img class="w-100" src="img/logo/logo4.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Teaching Center</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/travelagency.jpg" alt="">
-                            <p class="text-secondary text-center small">Travel Agency</p>
+                            <img class="w-100" src="img/logo/logo5.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Travel Agency</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/restoringhope.jpg" alt="">
-                            <p class="text-secondary text-center small">Restoring Hope</p>
+                            <img class="w-100" src="img/logo/logo6.png" alt="">
+                            <!-- <p class="text-secondary text-center small">Restoring Hope</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/recipescooklessons.jpg" alt="">
-                            <p class="text-secondary text-center small">Recipes and Cooking Leson</p>
+                            <img class="w-100" src="img/logo/logo7.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Recipes and Cooking Leson</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/onestepsuccess.jpg" alt="">
-                            <p class="text-secondary text-center small">One Step Success</p>
+                            <img class="w-100" src="img/logo/logo8.png" alt="">
+                            <!-- <p class="text-secondary text-center small">One Step Success</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/bodytreatment.jpg" alt="">
-                            <p class="text-secondary text-center small">Body Treatment</p>
+                            <img class="w-100" src="img/logo/logo9.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/outdooradventure.jpg" alt="">
-                            <p class="text-secondary text-center small">Outdoor Adventure</p>
+                            <img class="w-100" src="img/logo/logo10.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/onestepsuccess.jpg" alt="">
-                            <p class="text-secondary text-center small">One Step Success</p>
+                            <img class="w-100" src="img/logo/logo11.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/pizzeria.jpg" alt="luxury spa">
-                            <p class="text-secondary text-center small">Pizzeria</p>
+                            <img class="w-100" src="img/logo/logo12.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/luxuryadventure.jpg" alt="">
-                            <p class="text-secondary text-center small">Luxury Adventure</p>
+                            <img class="w-100" src="img/logo/logo13.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/healthyfood.jpg" alt="">
-                            <p class="text-secondary text-center small">Healthy Food</p>
+                            <img class="w-100" src="img/logo/logo14.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/food.jpg" alt="">
-                            <p class="text-secondary text-center small">Restaurant</p>
+                            <img class="w-100" src="img/logo/logo15.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/englishschool.jpg" alt="">
-                            <p class="text-secondary text-center small">School</p>
+                            <img class="w-100" src="img/logo/logo16.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/bodytreatment.jpg" alt="">
-                            <p class="text-secondary text-center small">Body Treatment</p>
+                            <img class="w-100" src="img/logo/logo17.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/bread.jpg" alt="">
-                            <p class="text-secondary text-center small">Bread</p>
+                            <img class="w-100" src="img/logo/logo18.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/buns.png" alt="">
-                            <p class="text-secondary text-center small">Snacks</p>
+                            <img class="w-100" src="img/logo/logo19.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/consultingfirmcontactpage.jpg" alt="">
-                            <p class="text-secondary text-center small">Consulting Firm</p>
+                            <img class="w-100" src="img/logo/logo20.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/landingpage/classic baked goods.jpg" alt="">
-                            <p class="text-secondary text-center small">Classic Baked Foods</p>
+                            <img class="w-100" src="img/logo/logo21.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo22.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo23.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo24.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo25.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo26.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo27.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo28.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo29.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo30.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo31.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo32.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo33.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo34.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
+                        </div>
+                        <div class="floating-item">
+                            <img class="w-100" src="img/logo/logo35.webp" alt="">
+                            <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                     </div>
                 </div>
