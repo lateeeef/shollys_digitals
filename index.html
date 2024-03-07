@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Website development company, email marketing, landing page, graphics design, logo creation. Shollys Digitals">
+    <meta name="description"
+        content="Website development company, email marketing, landing page, graphics design, logo creation. Shollys Digitals">
     <title>Shollys Digitals || Web Development Company -- Create a Modern & Responsive Website</title>
     <script src="https://code.jquery.com/jquery-3.6.3.js"
         integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
@@ -15,9 +16,19 @@
     <script src="https://kit.fontawesome.com/cd01be9631.js" crossorigin="anonymous"></script>
 </head>
 <style>
-    .intro{
+    .name {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .intro {
         border: none;
     }
+
     .activate {
         border-bottom: 10px 8px 8px 9px #F1900E;
     }
@@ -39,17 +50,33 @@
     #myCarousel {
         height: 500px;
     }
-    input, .message{
-        border-style: solid ;
+
+    input,
+    .message {
+        border-style: solid;
         border-width: 0 0 2px 0;
         outline: none;
+        background: none;
         /* outline-color: #F1900E; */
     }
-    input:focus, .message:focus{
+
+    input:focus,
+    .message:focus {
         border-bottom: 2px solid #F1900E;
     }
 
     @media screen and (max-width: 768px) {
+        .name {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: auto;
+        }
+
+        .logo {
+            height: 30px;
+            width: 30px;
+        }
+
+
         .tired {
             display: none;
             font-size: small;
@@ -72,6 +99,16 @@
             display: block;
             padding: 0;
             margin: 0;
+        }
+
+        .btn-lg {
+            font-size: 15px;
+            /* padding: 0px; */
+        }
+
+        .shollysimg {
+            height: 350px;
+            width: 350px;
         }
 
         /* .card-img-overlay {
@@ -108,12 +145,12 @@
     })
 </script>
 
-<body>
-    <article>
+<body class="bg-">
+    <article class="bg-">
         <nav class="navbar navbar-dark bg-dark sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"> <img class="rounded" src="img/LOGO2.png" alt="" height="40px"
-                        width="40px"> SHOLLYS DIGITALS</a>
+                <a class="navbar-brand" href="index.html"> <img class="rounded logo" src="img/LOGO2.png" alt=""> <span
+                        class="name">SHOLLYS DIGITALS</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                     aria-label="Toggle navigation">
@@ -144,8 +181,10 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
                                     <li><a class="dropdown-item link-drop" href="website.html">Websites</a></li>
-                                    <li><a class="dropdown-item link-drop" href="landingpage.html">Landing Pages</a></li>
-                                    <li><a class="dropdown-item link-drop" href="emailcampaign.html">Email Campaigns</a></li>
+                                    <li><a class="dropdown-item link-drop" href="landingpage.html">Landing Pages</a>
+                                    </li>
+                                    <li><a class="dropdown-item link-drop" href="emailcampaign.html">Email Campaigns</a>
+                                    </li>
                                     <li><a class="dropdown-item link-drop" href="logo.html">Logo designs</a></li>
                                 </ul>
                             </li>
@@ -155,12 +194,15 @@
                                     Company
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Testimonials</a></li>
-                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Premium</a></li>
+                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop"
+                                            href="#">Testimonials</a></li>
+                                    <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop"
+                                            href="#">Premium</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item link-drop" href="otherservices.html">Other Services</a></li>
+                                    <li><a class="dropdown-item link-drop" href="otherservices.html">Other Services</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -170,20 +212,25 @@
                         </form> -->
                         <div class="position-absolute bottom-0 start-50 translate-middle">
                             <p class="fs-4 text-center">
-                                <a href="https://facebook.com/abdulateef.oluwanishola.olalekan/" class="mx-1 text-decoration-none text-secondary"><i class="fa-brands fa-facebook link"></i> </a>
-                                <a href="#" class="mx-1 text-decoration-none text-secondary"><i class="fa-brands fa-instagram mx-1 link"></i> </a>
-                                <a href="#" class="mx-1 text-decoration-none text-secondary"><i class="fa-brands fa-x-twitter mx-1 link"></i> </a>
-                                <a href="#" class="mx-1 text-decoration-none text-secondary"><i class="fa-brands fa-upwork mx-1 link"></i></a>
-                                 
-                                 
-                                
+                                <a href="https://facebook.com/abdulateef.oluwanishola.olalekan/"
+                                    class="mx-1 text-decoration-none text-secondary"><i
+                                        class="fa-brands fa-facebook link"></i> </a>
+                                <a href="#" class="mx-1 text-decoration-none text-secondary"><i
+                                        class="fa-brands fa-instagram mx-1 link"></i> </a>
+                                <a href="#" class="mx-1 text-decoration-none text-secondary"><i
+                                        class="fa-brands fa-x-twitter mx-1 link"></i> </a>
+                                <a href="#" class="mx-1 text-decoration-none text-secondary"><i
+                                        class="fa-brands fa-upwork mx-1 link"></i></a>
+
+
+
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
-        <section>
+        <section class="bg- w-100">
             <div class="intro card">
                 <div>
                     <img class="w-100 h-25" height="" src="img/network-6511448_1280.webp" alt=""
@@ -192,17 +239,12 @@
                 <div
                     class="card-img-overlay mask text-light d-flex justify-content-center flex-column text-center p-5 w-100">
                     <h1 class="fw-bold display-4 ">We Create Websites</h1>
-                    <p class=" px-5 container tired">Are you tired of mediocre website designs that don't attract leads
-                        or
-                        convert
-                        them
-                        into customers? As a website design expert, we can help you create a visually stunning and
-                        highly
-                        functional website that drives results for your business. Let us show you how!</p>
+                    <p class=" px-5 container tired fs-3">Offering the finest digital solutions for your business <br>
+                        Professional and quality service is provided and tailored to meet your needs!</p>
+                    <p><em>...simply unique in providing solutions</em></p>
                     <div>
                         <a href="https://www.upwork.com/freelancers/eoluwalomola"
-                            class="btn btn-lg px-5 my-3 text-light" style="background-color: #F1900E;">Contact
-                            Us</a>
+                            class="btn btn-lg px-5 my-3 text-light" style="background-color: #F1900E;">Get Started</a>
                     </div>
                 </div>
 
@@ -217,7 +259,7 @@
                         like
                         brand illustrations that reflect the new brand </p>
                 </div>
-                <div class=" row justify-content-between align-items-center px-5 container-fluid">
+                <div class=" row justify-content-between align-items-center px-5 container-fluid bg-">
                     <div class="card col-lg-3 ">
                         <div style="background: #F1900E; height: 3px;"></div>
                         <div class="p-3">
@@ -242,7 +284,7 @@
                                 <li>Wordpress Development</li>
                                 <li>Shopify Development</li>
                                 <li class="invisible">System Architecture Design</li>
-                                <!-- <li class="invisible">System Architecture Design</li> -->
+                                <li class="invisible">System Architecture Design</li>
                             </ul>
                         </div>
                     </div>
@@ -256,7 +298,7 @@
                                 <li>Content Strategy</li>
                                 <li>Prototypees</li>
                                 <li class="">System Architecture Design</li>
-                                <!-- <li class="invisible">System Architecture Design</li> -->
+                                <li class="invisible">System Architecture Design</li>
                             </ul>
                         </div>
                     </div>
@@ -265,10 +307,11 @@
             </div>
 
 
-            <div class="p-5 align-items-center row w-100 bg-" id="">
-                <div class=" col-md-8">
+            <div class="p-5 align-items-center justify-content-center row w-100 bg-" id="">
+                <div class=" col-lg-8">
                     <h1 class="featurette-heading fw-normal mb-3">About Us</h1>
-                    <p>Sholly Digitals are passionate web developers with a proven track record of delivering stunning and functional
+                    <p>Sholly Digitals are passionate web developers with a proven track record of delivering stunning
+                        and functional
                         websites and web applications. With our years of experience in the industry, we specialize in
                         fullstack development using a range of technologies including HTML, CSS, JavaScript, PHP,
                         Python, Java and modern frameworks such as bootstrap, React and Angular.
@@ -283,7 +326,8 @@
                         providing tailored solutions that align with their goals. our collaborative approach allows us
                         to work seamlessly with designers, other developers, and stakeholders to bring projects to life
                         on time and within budget.
-                    </p><p>
+                    </p>
+                    <p>
                         We thrive on tackling new challenges and staying abreast of the latest industry trends and best
                         practices. Feel free to explore our portfolio to see some of our past projects and how we've
                         helped clients achieve their web development goals.
@@ -300,8 +344,9 @@
                             Us</a>
                     </div>
                 </div>
-                <div class="col-md-4 text-md-end bg-">
-                    <img class="rounded-circle w-7 mt-2" height="430px" width="430px" src="img/Creative.png" alt="">
+                <div class="col-lg-4 text-center text-lg-end bg-">
+                    <img class="rounded-circle w-7 mt-2 shollysimg" height="430px" width="430px" src="img/Creative.png"
+                        alt="">
                 </div>
             </div>
 
@@ -343,7 +388,7 @@
             <div class="container bg-">
                 <div class="container text-center">
                     <h1>Portfolio</h1>
-                    <p class="container-md">Convert New Customers With a Powerful Website. Quick, Smart & Great
+                    <p class="container-md">Convert New Customers With a Powerful Website. <br> Quick, Smart & Great
                         Solutions</p>
                 </div>
                 <div class=" row mt-2">
@@ -371,6 +416,47 @@
                         <img class="card-image h-75 w-100 rounded" src="img/digital.jpg" alt="">
                         <p class="card-title text-center fw-normal mt-3">Digital Product</p>
                     </div>
+
+                    <!-- <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                        <div class="col">
+                          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/programming.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                              <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                  <img src="img/coding.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                  
+                        <div class="col">
+                          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/landingpage/digitaldesigncomp.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+                              <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                  <img src="img/coding.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                  
+                        <div class="col">
+                          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('img/landingpage/digitaldesigncomp.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                              <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                  <img src="img/coding.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div> -->
                 </div>
             </div>
 
@@ -463,19 +549,7 @@
                 </div>
             </div>
 
-            <!-- <div class="container mb-2">
-                <h2 class="fw-normal">Contact Us</h2>
-                <div class="row gap-5 container text-center">
-                    <a class="col-md-3 btn btn-outline-warning my-1" href="#" onclick="alert('Available Soon')">On
-                        Fiverr</a>
-                    <a class="col-md-3 btn btn-outline-warning my-1"
-                        href="https://www.upwork.com/freelancers/eoluwalomola">On Upwork</a>
-                    <a class="col-md-3 btn btn-outline-warning my-1"
-                        href="https://facebook.com/abdulateef.oluwanishola.olalekan/">On Facebook</a>
-                </div>
-            </div> -->
-
-            <div class="bg-" style="background-color: #FEF7E5;">
+            <div class="bg-">
                 <div class="container w- justify-content-center align-items-center bg- p-2 contact">
                     <div class="row p-2">
                         <div class="col-md-6 bg-light py-4">
@@ -483,22 +557,28 @@
                             <form action="#">
                                 <div class="my-1">
                                     <label for="name">Name</label>
-                                    <input type="text" class="d-block w-100 p-2 " placeholder="Enter your name" required>
+                                    <input type="text" class="d-block w-100 p-2 " placeholder="Enter your name"
+                                        required>
                                 </div>
                                 <div class="my-1">
                                     <label for="email">Email</label>
-                                    <input type="email" class="d-block w-100 p-2 " placeholder="Enter a valid email  address" required>
+                                    <input type="email" class="d-block w-100 p-2 "
+                                        placeholder="Enter a valid email  address" required>
                                 </div>
                                 <div class="my-1">
                                     <label for="message">Message</label>
-                                    <textarea name="message" id="message" cols="15" rows="8" class="d-block w-100 p-2 message" required></textarea>
+                                    <textarea name="message" id="message" cols="15" rows="8"
+                                        class="d-block w-100 p-2 message" placeholder="message goes here..."
+                                        required></textarea>
                                 </div>
                                 <div class="text-center mt-3">
-                                    <input type="submit" value="SUBMIT" class="btn btn- w-100 text-white " style="background-color: #F1900E;">
+                                    <input type="submit" value="SUBMIT" class="btn btn- w-100 text-white "
+                                        style="background-color: #F1900E;">
                                 </div>
                             </form>
                         </div>
-                        <div class="col-md-6 text-center text-white bg- fw-normal py-5" style="background-color: #f18f0e; filter: brightness(90%);">
+                        <div class="col-md-6 text-center text-white bg- fw-normal py-5"
+                            style="background-color: #f18f0e; filter: brightness(90%);">
                             <h6>CALL US</h6>
                             <p>+234 806 4255 017</p>
                             <p>+234 905 2736 348</p><br><br>
@@ -507,9 +587,10 @@
                             <p>No. 56, Behind Christ Apostolic Church, Prakin, Ile-Ife</p><br><br>
                             <h6>SOCIAL</h6>
                             <p class="fs-3">
-                                <a href="https://facebook.com/abdulateef.oluwanishola.olalekan/" class="text-decoration-none text-white"><i class="fa-brands fa-facebook"></i> </a>
-                                <i class="fa-brands fa-instagram"></i> 
-                                <i class="fa-brands fa-x-twitter"></i> 
+                                <a href="https://facebook.com/abdulateef.oluwanishola.olalekan/"
+                                    class="text-decoration-none text-white"><i class="fa-brands fa-facebook"></i> </a>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
                                 <i class="fa-brands fa-upwork"></i>
                             </p>
                         </div>
@@ -517,6 +598,218 @@
                 </div>
             </div>
 
+            <div class="container my-4">
+                <div>
+                    <h3>Frequently Asked Questions</h3>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What services do you offer?
+                            </button>
+                        </h4>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div>
+                                    <p>Our website development company offers a range of services including website
+                                        design,
+                                        website development, e-commerce development, mobile application development,
+                                        website
+                                        maintenance, and digital marketing services.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How long does it take to develop a website?
+                            </button>
+                        </h4>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>The timeframe for website development depends on the complexity of the project. On
+                                    average, a standard website can take anywhere from 4 to 8 weeks to develop. However,
+                                    more complex projects with custom functionalities may require additional time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Can you design a website based on our specific requirements and branding?
+                            </button>
+                        </h4>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Yes, we specialize in custom website design and can create a website that aligns with
+                                    your specific requirements and branding guidelines. Our team will work closely with
+                                    you to ensure your vision is brought to life.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What Technologies do you use for web development?
+                            </button>
+                        </h4>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>HTML, DHTML, CSS, XSD, XML, XSLT</li>
+                                    <li>React, Vue, Angular JS, JavaScript, VB Script</li>
+                                    <li>ORACLE, MS-SQL SERVER, MY-SQL, SQLITE, MS-ACCESS</li>
+                                    <li>ADO.NET, JDBC, EJB, HIBERNATE, SPRING</li>
+                                    <li>JAVA, C++, C#, PHP, ASP.NET, JSP, SERVLET, PYTHON, SHELL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Why choose you?
+                            </button>
+                        </h4>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Our Websites are unique and eye-catching, designed using web technology such as Python,
+                                NodeJS, JavaScript, PHP, MYSQL, and more, which empower our customers to represent
+                                themselves online confidently in the global arena. <br>
+                                Shollysy Digitals focuses on all the aspects of managing a web project involving the
+                                development life cycle. <br>
+                                The development cycle follows ISO standards and the development life cycle model. Our
+                                technical goal is to provide a powerful web-based solution to our customers to face
+                                today's emerging internet situation. Our web development services are implemented taking
+                                into consideration search engine positions and placements. <br>
+                                Our web developers can turn ideas into reality using their creative talents and
+                                knowledge of website standards and practices. Our websites are unique in design, and the
+                                designs themselves represent the nature of a client's business. </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Do you offer website maintenance and support services?
+                            </button>
+                        </h4>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Yes, we offer website maintenance and support services to ensure your website
+                                    remains up-to-date, secure, and functioning properly. From regular backups to
+                                    content updates and security checks, we provide comprehensive maintenance solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Can you optimize our website for search engines?
+                            </button>
+                        </h4>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Yes, we offer search engine optimization (SEO) services to improve your website's
+                                    visibility and ranking on search
+                                    engine results pages. Our SEO strategies focus on optimizing content, keywords, meta
+                                    tags, and website structure to
+                                    increase organic traffic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Will the website be mobile-friendly and responsive?
+                            </button>
+                        </h4>
+                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Absolutely, we prioritize mobile-friendly and responsive design for all our websites.
+                                    We ensure that your website is
+                                    optimized for different screen sizes and devices, providing a seamless user
+                                    experience across platforms.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Can you integrate e-commerce functionality into our website?
+                            </button>
+                        </h4>
+                        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Yes, we have experience in developing e-commerce websites and can integrate a secure
+                                    and user-friendly online store
+                                    into your website. Our e-commerce solutions include shopping cart systems, payment
+                                    gateways, and inventory management.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                Can you provide examples of websites you have developed?
+                            </button>
+                        </h4>
+                        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Yes, we can provide a portfolio of websites we have developed in the past. You can
+                                    view our portfolio on our website
+                                    or request specific examples that align with your industry or desired features.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                What is the cost of website development?
+                            </button>
+                        </h4>
+                        <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>The cost of website development depends on various factors such as the scope of the
+                                    project, design complexity,
+                                    required functionalities, and additional services needed. We provide customized
+                                    quotes based on your specific
+                                    requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                Do you offer website hosting services?
+                            </button>
+                        </h4>
+                        <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Yes, we offer website hosting services to provide a reliable and secure platform for
+                                    your website. Our hosting plans
+                                    are tailored to meet the needs of different websites, ensuring optimal performance
+                                    and uptime.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
 
     </article>
@@ -525,14 +818,15 @@
     <footer class="bg-dark text-light py-3">
         <div class="container">
             <hr class="text-light">
-            <div class="d-flex justify-content-between">
-                <div class="txt">
+            <div class="d-md-flex justify-content-between">
+                <div class="txt text-light fw-normal">
                     <img class="rounded" src="img/LOGO2.png" alt="" height="40px" width="40px">
                     &copy; 2024 Sholly Digitals, Inc.
                 </div>
-                <div class="text-end">
-                    <a class="mx-1 socials" href="https://facebook.com/abdulateef.oluwanishola.olalekan/" title="Facebook"><svg
-                            xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                <div class="text-md-end d-none d-md-block">
+                    <a class="mx-1 socials" href="https://facebook.com/abdulateef.oluwanishola.olalekan/"
+                        title="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            viewBox="0 0 24 24">
                             <path fill="white"
                                 d="M19.02 4.975A9.93 9.93 0 0 0 2.07 12A9.935 9.935 0 0 0 12 21.935a9.98 9.98 0 0 0 3.8-.75a10.189 10.189 0 0 0 3.22-2.16a9.934 9.934 0 0 0 0-14.05m-.7 13.34a8.921 8.921 0 0 1-5.32 2.57v-6.56h1.88a1 1 0 0 0 0-2H13v-2.74a1 1 0 0 1 1-1h1.2a1 1 0 0 0 0-2h-1.7a2.5 2.5 0 0 0-2.5 2.5v3.24H9.13a1 1 0 1 0 0 2H11v6.56a8.919 8.919 0 1 1 9.26-5.47a9.061 9.061 0 0 1-1.94 2.9" />
                         </svg></a>
@@ -555,6 +849,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
