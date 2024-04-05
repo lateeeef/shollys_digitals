@@ -18,12 +18,14 @@
 
 
 <style>
-    .card{
+    .card {
         border: none;
     }
-    .lead{
+
+    .lead {
         width: 600px;
     }
+
     .link:hover,
     .active {
         color: #F1900E;
@@ -34,11 +36,17 @@
         color: white;
     }
 
+    .lessBright {
+        -webkit-filter: brightness(0.5);
+        filter: brightness(0.5);
+    }
+
     @media screen and (max-width: 650px) {
-        .lead{
+        .lead {
             width: 100%;
             font-size: small;
         }
+
         .words {
             font-size: 8px;
         }
@@ -76,8 +84,8 @@
                             <a class="nav-link link disabled" href="#" id="contact">Contacts</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle link" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle link" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Portfolio
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark">
@@ -88,15 +96,17 @@
                                 </li>
                                 <li><a class="dropdown-item link-drop" href="logo.html">Logo designs</a></li>
                             </ul>
-                    </li>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle link" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle link" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Company
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Testimonials</a></li>
-                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop" href="#">Premium</a></li>
+                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop"
+                                        href="#">Testimonials</a></li>
+                                <li onclick="alert('Available Soon')"><a class="dropdown-item link-drop"
+                                        href="#">Premium</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -110,13 +120,18 @@
                     </form> -->
                     <div class="position-absolute bottom-0 start-50 translate-middle">
                         <p class="fs-4 text-center">
-                            <a href="https://facebook.com/abdulateef.oluwanishola.olalekan/" class="mx-1 text-decoration-none text-secondary"><i class="fa-brands fa-facebook link"></i> </a>
-                            <a href="#" class="mx-1 text-decoration-none text-secondary"><i class="fa-brands fa-instagram mx-1 link"></i> </a>
-                            <a href="#" class="mx-1 text-decoration-none text-secondary"><i class="fa-brands fa-x-twitter mx-1 link"></i> </a>
-                            <a href="#" class="mx-1 text-decoration-none text-secondary"><i class="fa-brands fa-upwork mx-1 link"></i></a>
-                             
-                             
-                            
+                            <a href="https://facebook.com/abdulateef.oluwanishola.olalekan/"
+                                class="mx-1 text-decoration-none text-secondary"><i
+                                    class="fa-brands fa-facebook link"></i> </a>
+                            <a href="#" class="mx-1 text-decoration-none text-secondary"><i
+                                    class="fa-brands fa-instagram mx-1 link"></i> </a>
+                            <a href="#" class="mx-1 text-decoration-none text-secondary"><i
+                                    class="fa-brands fa-x-twitter mx-1 link"></i> </a>
+                            <a href="#" class="mx-1 text-decoration-none text-secondary"><i
+                                    class="fa-brands fa-upwork mx-1 link"></i></a>
+
+
+
                         </p>
                     </div>
                 </div>
@@ -125,10 +140,30 @@
     </nav>
 
     <main class="">
-
-        <section class="text-center ">
+        <section class="text-center d-block d-md-none">
             <div class="card">
-                <div class="d- d-sm-block">
+                <div style="background-image: url(img/logocover1.jpg); background-size: cover;"
+                    class="lessBright text-light d-flex justify-content-center flex-column text-center p-5 w-100 mx-auto  words">
+                    <h1 class="fw-bold display-5">Design Excellence</h1>
+                    <p class="lead text-body-secondary mx-md-auto ">
+
+                        As a logo designer, we bring creativity and precision to every project. Let's collaborate to
+                        create a captivating logo that elevates your brand.
+
+                    </p>
+                    <p>
+                        <a href="https://www.upwork.com/freelancers/~01214ca6fd6b0b5691?viewMode=1"
+                            class="btn text-white my-2" style="background-color: #F1900E;">Create
+                            a Logo</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="text-center d-none d-md-block">
+            <div class="card">
+                <div class="">
                     <img class="w-100" height="" src="img/logocover1.jpg" alt=""
                         style="filter: brightness(30%);">
                 </div>
@@ -140,8 +175,8 @@
                         
                     </p>
                     <p>
-                        <a href="#" class="btn text-white my-2" style="background-color: #F1900E;">Order to Create
-                            Logo</a>
+                        <a href="https://www.upwork.com/freelancers/~01214ca6fd6b0b5691?viewMode=1" class="btn text-white my-2" style="background-color: #F1900E;">Create
+                           a Logo</a>
                     </p>
                 </div>
             </div>
@@ -152,23 +187,23 @@
                 <div class="floating-div-wrap">
                     <div class="floating-container">
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo1.webp" alt="">
+                            <img class="w-100" src="img/logo/logo1.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Bread</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo2.webp" alt="">
+                            <img class="w-100" src="img/logo/logo2.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Stat Business</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo3.webp lawyer.png" alt="">
+                            <img class="w-100" src="img/logo/logo3.jpg lawyer.png" alt="">
                             <!-- <p class="text-secondary text-center small">Tax lawyer</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo4.webp" alt="">
+                            <img class="w-100" src="img/logo/logo4.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Teaching Center</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo5.webp" alt="">
+                            <img class="w-100" src="img/logo/logo5.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Travel Agency</p> -->
                         </div>
                         <div class="floating-item">
@@ -176,7 +211,7 @@
                             <!-- <p class="text-secondary text-center small">Restoring Hope</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo7.webp" alt="">
+                            <img class="w-100" src="img/logo/logo7.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Recipes and Cooking Leson</p> -->
                         </div>
                         <div class="floating-item">
@@ -184,31 +219,31 @@
                             <!-- <p class="text-secondary text-center small">One Step Success</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo9.webp" alt="">
+                            <img class="w-100" src="img/logo/logo9.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo10.webp" alt="">
+                            <img class="w-100" src="img/logo/logo10.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo11.webp" alt="">
+                            <img class="w-100" src="img/logo/logo11.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo12.webp" alt="">
+                            <img class="w-100" src="img/logo/logo12.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo13.webp" alt="">
+                            <img class="w-100" src="img/logo/logo13.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo14.webp" alt="">
+                            <img class="w-100" src="img/logo/logo14.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
-                            <img class="w-100" src="img/logo/logo15.webp" alt="">
+                            <img class="w-100" src="img/logo/logo15.jpg" alt="">
                             <!-- <p class="text-secondary text-center small">Body Treatment</p> -->
                         </div>
                         <div class="floating-item">
@@ -301,12 +336,12 @@
     <footer class="bg-dark text-light py-3">
         <div class="container">
             <hr class="text-light">
-            <div class="d-flex justify-content-between">
-                <div class="txt">
+            <div class="d-md-flex justify-content-between">
+                <div class="txt text-light fw-normal">
                     <img class="rounded" src="img/LOGO2.png" alt="" height="40px" width="40px">
                     &copy; 2024 Sholly Digitals, Inc.
                 </div>
-                <div class="text-end">
+                <div class="text-md-end d-none d-md-block">
                     <a class="mx-1 socials" href="https://facebook.com/abdulateef.oluwanishola.olalekan/"
                         title="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                             viewBox="0 0 24 24">
