@@ -25,3 +25,11 @@
 .floating-item:hover {
     filter: brightness(80%);
 }
+
+
+@media screen and (max-width: 768px) {
+    .display-5{
+    font-size: xx-large;
+}
+
+}
